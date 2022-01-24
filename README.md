@@ -20,7 +20,15 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- Navigation Header - allows users to navigate between different pages
+- Home/School Page - allows users to view the different schools in NP
+- Diploma Page - allows users to view the different diplomas offered in each school
+- Quiz Page - allows users to find out what school matches their interest
+- Contact Page - allows users to view NP's contact and individual schools' contact for further enquiry
+- After scrolling past all the schools in the Home Page, there is a button that redirects them to the Quiz Page when clicked
+- For the Contact Page, there is a navigation bar that scrolls to the selected school's telphone no and email
+- For the Quiz Page, once the user gets their result. They are able to see the top 3 schools that matches their interest
+- Footer contains links to NP's social media platforms
 - ...
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -34,6 +42,13 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+- [RestDB](https://restdb.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [LottieFiles](https://lottiefiles.com/)
+- [AdobeXD]
+- [HTML](https://html.com/)
+- [CSS]
+- [JavaScript](https://www.javascript.com/)
 
 
 ## Testing
