@@ -22,3 +22,19 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+footer{
+    background-color: black;
+}
+
+footer img{
+    width: 300px;
+    height: auto;
+}
+
+footer .bi{
+    color: white;
+    font-size: 25px;
+    margin: 30px;
+
+}
