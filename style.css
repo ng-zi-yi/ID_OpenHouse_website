@@ -19,18 +19,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-<<<<<<< HEAD
-=======
-    line-height: 2;
-}
-
-.header-title h1{
-    font-size: 62px;
->>>>>>> dd3c83773e8f8d788f530353df4bc3bf47f2a09d
 }
 
 .header-title p{
-<<<<<<< HEAD
     color: white;
     font-size: 28px;
     letter-spacing: 1.5px;
@@ -51,7 +42,3 @@ a:hover{
     text-decoration: none;
     background-color: white;
 }
-=======
-    font-size: 20px;
-}
->>>>>>> dd3c83773e8f8d788f530353df4bc3bf47f2a09d
