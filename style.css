@@ -21,20 +21,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    line-height: 2;
 }
 
-footer{
-    background-color: black;
+.header-title h1{
+    font-size: 62px;
 }
 
-footer img{
-    width: 300px;
-    height: auto;
-}
-
-footer .bi{
-    color: white;
-    font-size: 25px;
-    margin: 30px;
-
+.header-title p{
+    font-size: 20px;
 }
