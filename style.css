@@ -14,18 +14,30 @@
     position: relative;
 }
 .header-title{
-    width: 90%;
-    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    line-height: 2;
-}
-.header-title h1{
-    font-size: 62px;
 }
 .header-title p{
-    font-size: 20px;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    padding-bottom: 20px;
+}
+.sch-btn{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 25px;
+}
+a:hover{
+    text-decoration: none;
+    background-color: white;
 }
