@@ -19,24 +19,46 @@
 </head>
 
 <body>
+    <div mainnav="mainnavh.html"></div>
+    <script src="mainnav.js"></script>
 
     <!-- Quiz Questions
-    1) What 3 values fit you? - 8 option
+    1) 
     2) What slogan fits you the most? - 8 option
     3) What are the top 3 working environment that suits you? - 8 options
-    4) What is your best subject?
-    5) 
+    4) What is your strongest subject?
+    5) Which grading are you more into?
     6)
     7)
     8)
     9)
     10) -->
 
+    <!--Quiz Start-->
+    <div class="container">
+        <div class="col-md-auto">
+            <form>
+                <h1>Find Out What School Fits You</h1>
+                <div class="row mb-3">
+                    <label for="inputFullName" class="col-sm-2 col-form-label">Full Name</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputFullName">
+                    </div>
+                </div>
 
-
-
-
-
+                <!--Question Starts Here-->
+                <fieldset class="col md-12">
+                    <legend>What slogan resonates with you the most?</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                          <label class="form-check-label" for="gridRadios1">
+                            Your First Business Choice
+                          </label>
+                </fieldset>
+            </form>
+        </div>
+    </div>
 </body>
 
 <!--Bootstap Script-->
