@@ -61,6 +61,19 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
+2. Home Scrolling Effect:
+    1. Go to the Home Page
+    2. Click on the "Discover Our Schools" button and ensure that the page scrolls down to the Schools section
+
+3. Navigation Menu:
+    1. Go to the Home Page
+    2. Try to click on Quiz in the navigation bar and verify that the page goes to the Quiz Page
+    3. Try to click on Contact Us in the navigation bar and verify that the page goes to the Contact Us Page
+    4. Try to click on School in the navigation bar and verify that the page goes back to the Home Page
+    5. On Mobile screen size, the navigation bar should change to a hamburger menu 
+    6. Try to click on the hamburger icon and ensure that the navigation opens up
+
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
