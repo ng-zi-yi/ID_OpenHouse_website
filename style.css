@@ -8,6 +8,7 @@ nav #navbarNav{
     display: flex;
     justify-content: end;
 }
+
 /*Home Page*/
 .header{
     min-height: 100vh;
@@ -24,7 +25,6 @@ nav #navbarNav{
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
 .header-title p{
     color: white;
     font-size: 28px;
@@ -45,4 +45,59 @@ nav #navbarNav{
 a:hover{
     text-decoration: none;
     background-color: white;
+}
+
+.schs{
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+    margin: auto;
+    background: rgb(233, 233, 246);
+}
+.schs h2{
+    font-size: 48px;
+}
+.sch-box{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.sch-col{
+    flex-basis: 38%;
+    box-sizing: border-box;
+}
+.sch-col img{
+    width: 80%;
+    margin: 10%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.sch-col-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ba-img:hover{
+    box-shadow: 15px 15px 0px 0px rgb(178,8,55)
+}
+#de-img:hover{
+    box-shadow: 15px 15px 0px 0px rgb(194,213,0)
+}
+#soe-img:hover{
+    box-shadow: 15px 15px 0px 0px rgb(0,138,174)
+}
+#hms-img:hover{
+    box-shadow: 15px 15px 0px 0px rgb(253,187,47)
+}
+#hs-img:hover{
+    box-shadow: 15px 15px 0px 0px rgb(4,121,53)
+}
+#fms-img:hover{
+    box-shadow: 15px 15px 0px 0px rgb(172,32,141)
+}
+#ict-img:hover{
+    box-shadow: 15px 15px 0px 0px rgb(114,34,131)
+}
+#lsct-img:hover{
+    box-shadow: 15px 15px 0px 0px rgb(250,66,56)
 }
