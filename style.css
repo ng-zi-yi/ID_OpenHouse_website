@@ -107,27 +107,27 @@ nav #navbarNav{
 .sch-quizbox{
     background-color: rgb(140,138,164);
     width: 100%;
-    padding: 30px 60px;
+    padding: 20px 0px 50px;
     text-align: center;
 }
 .sch-quizbox h2{
-    font-size: 58px;
-    padding: 20px;
+    font-size: 52px;
+    padding: 20px 20px;
 }
 .quiz-btn{
     color: black;
     display: inline-block;
     text-decoration: none;
-    border: 3px solid rgb(230, 229, 229);
     background: white;
     position: relative;
     cursor: pointer;
     padding: 12px 34px;
     font-size: 25px;
     transition: 0.5s;
+    border-radius: 3px;
 }
 .quiz-btn:hover{
     text-decoration: none;
     color: black;
-    box-shadow: 15px 15px 0px 0px rgb(55, 99, 182)
+    box-shadow: 10px 10px 0px 0px rgb(194, 193, 221)
 }
