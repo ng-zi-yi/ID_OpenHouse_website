@@ -57,7 +57,7 @@ nav #navbarNav{
     background: rgb(233, 233, 246);
 }
 .schs h2{
-    font-size: 48px;
+    font-size: 52px;
 }
 .sch-box{
     margin-top: 3%;
@@ -68,13 +68,13 @@ nav #navbarNav{
     flex-basis: 38%;
     box-sizing: border-box;
 }
-.sch-col img{
+.sch-col-inner img{
     width: 88%;
     margin: 10%;
     border-radius: 10px;
     transition: 0.5s;
 }
-.sch-col-inner{
+.sch-col-inner-img{
     display: flex;
     flex-direction: column;
     align-items: center;
