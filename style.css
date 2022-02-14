@@ -184,3 +184,65 @@ nav #navbarNav{
     background-color: white;
     box-shadow:0px 8px 0px 0px rgb(178,8,55) ;
 }
+
+.ba-courses{
+    background-color: rgb(244,244,244);
+    width: 100%;
+    padding: 70px 100px;
+    text-align: center;
+    margin: auto;
+}
+.ba-courses h3{
+    color: rgb(178,8,55);
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.ba-courses-box{
+    display: flex;
+    flex-direction: column;
+}
+.ba-courses-item{
+    display: flex;
+    flex-basis: 28%;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    text-align: left;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.ba-courses img{
+    height: 250px;
+    border-radius: 10px;
+}
+.ba-courses-text{
+    padding-left: 30px;
+}
+.ba-courses-text h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.ba-courses-text p{
+    font-size: 18px;
+}
+.ba-courses-item:hover{
+    background-color: white;
+    box-shadow:15px 15px 0px 0px rgb(178,8,55);
+}
+.ba-dip-btn{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background: rgb(178,8,55);
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 17px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.ba-dip-btn:hover{
+    color: white;
+}
