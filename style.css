@@ -151,8 +151,8 @@ nav #navbarNav{
 }
 .ba-header-title2{
     background: white;
-    color: rgb(178,8,55);
-    box-shadow: 8px 8px 0px 0px rgb(178,8,55);
+    color: #d20a0d;
+    box-shadow: 8px 8px 0px 0px #d20a0d;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 50px;
@@ -180,9 +180,9 @@ nav #navbarNav{
 }
 .ba-btn:hover{
     text-decoration: none;
-    color: rgb(178,8,55);
+    color: #d20a0d;
     background-color: white;
-    box-shadow:0px 8px 0px 0px rgb(178,8,55) ;
+    box-shadow:0px 8px 0px 0px #d20a0d;
 }
 
 .ba-courses{
@@ -193,7 +193,7 @@ nav #navbarNav{
     margin: auto;
 }
 .ba-courses h3{
-    color: rgb(178,8,55);
+    color: #d20a0d;
     font-family: 'Roboto', 'sans-serif';
     font-size: 40px;
     padding-bottom: 50px;
@@ -229,13 +229,13 @@ nav #navbarNav{
 }
 .ba-courses-item:hover{
     background-color: white;
-    box-shadow:15px 15px 0px 0px rgb(178,8,55);
+    box-shadow:15px 15px 0px 0px #d20a0d;
 }
 .ba-dip-btn{
     color: white;
     display: inline-block;
     text-decoration: none;
-    background: rgb(178,8,55);
+    background: #d20a0d;
     position: relative;
     cursor: pointer;
     padding: 12px 34px;
@@ -474,5 +474,350 @@ nav #navbarNav{
     border-radius: 10px;
 }
 .hs-dip-btn:hover{
+    color: white;
+}
+
+/*FMS PAGE*/
+.fms-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(78, 87, 107, 0.7),rgba(3, 9, 34, 0.7)),url(images/FMS/fms-sch.PNG);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.fms-header-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.fms-header-title2{
+    background: white;
+    color: #b43ad6 ;
+    box-shadow: 8px 8px 0px 0px #b43ad6 ;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.fms-header-title2 h1{
+    padding: 0px 15px 10px 15px;
+    font-size: 55px;
+}
+.fms-header-title2 h2{
+    padding: 10px 0px 0px 0px;
+    font-size: 40px;
+}
+.fms-btn{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 25px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.fms-btn:hover{
+    text-decoration: none;
+    color: #b43ad6 ;
+    background-color: white;
+    box-shadow:0px 8px 0px 0px #b43ad6 ;
+}
+
+.fms-courses{
+    background-color: rgb(244,244,244);
+    width: 100%;
+    padding: 70px 100px;
+    text-align: center;
+    margin: auto;
+}
+.fms-courses h3{
+    color: #b43ad6 ;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.fms-courses-box{
+    display: flex;
+    flex-direction: column;
+}
+.fms-courses-item{
+    display: flex;
+    flex-basis: 28%;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    text-align: left;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.fms-courses img{
+    height: 250px;
+    border-radius: 10px;
+}
+.fms-courses-text{
+    padding-left: 30px;
+}
+.fms-courses-text h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.fms-courses-text p{
+    font-size: 18px;
+}
+.fms-courses-item:hover{
+    background-color: white;
+    box-shadow:15px 15px 0px 0px #b43ad6 ;
+}
+.fms-dip-btn{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background: #b43ad6 ;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 17px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.fms-dip-btn:hover{
+    color: white;
+}
+
+/*ICT PAGE*/
+.ict-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(78, 87, 107, 0.7),rgba(3, 9, 34, 0.7)),url(images/ICT/ict-sch.PNG);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.ict-header-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.ict-header-title2{
+    background: white;
+    color: #87458b ;
+    box-shadow: 8px 8px 0px 0px #87458b ;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.ict-header-title2 h1{
+    padding: 0px 15px 10px 15px;
+    font-size: 55px;
+}
+.ict-header-title2 h2{
+    padding: 10px 0px 0px 0px;
+    font-size: 40px;
+}
+.ict-btn{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 25px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.ict-btn:hover{
+    text-decoration: none;
+    color: #87458b ;
+    background-color: white;
+    box-shadow:0px 8px 0px 0px #87458b ;
+}
+
+.ict-courses{
+    background-color: rgb(244,244,244);
+    width: 100%;
+    padding: 70px 100px;
+    text-align: center;
+    margin: auto;
+}
+.ict-courses h3{
+    color: #87458b ;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.ict-courses-box{
+    display: flex;
+    flex-direction: column;
+}
+.ict-courses-item{
+    display: flex;
+    flex-basis: 28%;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    text-align: left;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.ict-courses img{
+    height: 250px;
+    border-radius: 10px;
+}
+.ict-courses-text{
+    padding-left: 30px;
+}
+.ict-courses-text h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.ict-courses-text p{
+    font-size: 18px;
+}
+.ict-courses-item:hover{
+    background-color: white;
+    box-shadow:15px 15px 0px 0px #87458b ;
+}
+.ict-dip-btn{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background: #87458b ;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 17px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.ict-dip-btn:hover{
+    color: white;
+}
+
+/*LSCT PAGE*/
+.lsct-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(78, 87, 107, 0.7),rgba(3, 9, 34, 0.7)),url(images/LSCT/lsct-sch.PNG);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.lsct-header-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.lsct-header-title2{
+    background: white;
+    color: #f18560  ;
+    box-shadow: 8px 8px 0px 0px #f18560  ;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.lsct-header-title2 h1{
+    padding: 0px 15px 10px 15px;
+    font-size: 55px;
+}
+.lsct-header-title2 h2{
+    padding: 10px 0px 0px 0px;
+    font-size: 40px;
+}
+.lsct-btn{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 25px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.lsct-btn:hover{
+    text-decoration: none;
+    color: #f18560  ;
+    background-color: white;
+    box-shadow:0px 8px 0px 0px #f18560  ;
+}
+
+.lsct-courses{
+    background-color: rgb(244,244,244);
+    width: 100%;
+    padding: 70px 100px;
+    text-align: center;
+    margin: auto;
+}
+.lsct-courses h3{
+    color: #f18560  ;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.lsct-courses-box{
+    display: flex;
+    flex-direction: column;
+}
+.lsct-courses-item{
+    display: flex;
+    flex-basis: 28%;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    text-align: left;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.lsct-courses img{
+    height: 250px;
+    border-radius: 10px;
+}
+.lsct-courses-text{
+    padding-left: 30px;
+}
+.lsct-courses-text h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.lsct-courses-text p{
+    font-size: 18px;
+}
+.lsct-courses-item:hover{
+    background-color: white;
+    box-shadow:15px 15px 0px 0px #f18560  ;
+}
+.lsct-dip-btn{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background: #f18560  ;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 17px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.lsct-dip-btn:hover{
     color: white;
 }
