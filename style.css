@@ -6,6 +6,7 @@
 
 h1{
     padding: 20px;
+    text-align: center;
 }
 
 /*Home Page*/
@@ -843,6 +844,11 @@ table th {
 }
 table tr th{
     text-align: center;
+}
+
+/* Quiz Page */
+.col.d-flex.justify-content-center:hover{
+    box-shadow: #0ACAF0;
 }
 
 /* Footer */
