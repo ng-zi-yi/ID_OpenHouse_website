@@ -19,7 +19,7 @@
 
 <body>
     <div mainnav="mainnavh.html"></div>
-    <h1>Contact Us</h1>
+    <h1 class="text-center">Contact Us</h1>
     <script src="mainnav.js"></script>
 
     <aside class="container">
@@ -31,7 +31,7 @@
                     <div class="col-2">
                         <i class="bi bi-geo-alt"></i>
                     </div>
-                    <div class="col-2">
+                    <div class="col-10">
                         <h3>535 Clementi Rd, Singapore 599489</h3>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                     <div class="col-2">
                         <i class="bi bi-telephone"></i>
                     </div>
-                    <div class="col-2">
+                    <div class="col-10">
                         <h3>6466 6555</h3>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     <div class="col-2">
                         <i class="bi bi-envelope"></i>
                     </div>
-                    <div class="col-2">
+                    <div class="col-10">
                         <h3>askNP@np.edu.sg</h3>
                     </div>
                 </div>
@@ -58,23 +58,31 @@
             <!--End of NP Details-->
             <!--Map of NP -->
             <div class="col">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.739481800385!2d103.7754983146614!3d1.3324443620025164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da108723f5373f%3A0x6e40e274e72cba1d!2sNgee%20Ann%20Poly!5e0!3m2!1sen!2ssg!4v1644907343614!5m2!1sen!2ssg"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </aside>
 
-    <h1>Academic School Contact</h1>
-    <nav>
-        <a href="#BA">BS</a>
-        <a href="#DE">DE</a>
-        <a href="#SOE">SOE</a>
-        <a href="#HMS">HMS</a>
-        <a href="#HS">HS</a>
-        <a href="#FMS">FMS</a>
-        <a href="#ICT">ICT</a>
-        <a href="#LSCT">LSCT</a>
-    </nav>
+    <h1 class="text-center">Academic School Contact</h1>
 
-    <div class="container">
+    <div class="nav justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-nav justify-content-center">
+                <a class="nav-item nav-link" href="#BA">BA</a>
+                <a class="nav-item nav-link" href="#DE">DE</a>
+                <a class="nav-item nav-link" href="#SOE">SOE</a>
+                <a class="nav-item nav-link" href="#HMS">HMS</a>
+                <a class="nav-item nav-link" href="#HS">HS</a>
+                <a class="nav-item nav-link" href="#FMS">FMS</a>
+                <a class="nav-item nav-link" href="#ICT">ICT</a>
+                <a class="nav-item nav-link" href="#LSCT">LSCT</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container" id="contact">
         <div class="row">
             <div class="col">
                 <!--School Of Business & Accountancy Details-->
@@ -244,12 +252,13 @@
             </div>
         </div>
     </div>
+    </div>
 
 
     <footer>
         <div class="row">
             <div class="col-6">
-                <img src="images/logo_NP_white.png">
+                <img src="images/NP-logo.png">
                 <!--Or Ngee Ann Polytechnic Logo-->
             </div>
             <!--NP Social Medias-->
@@ -258,31 +267,31 @@
                     <div class="col-2">
                         <!--NP Instagram-->
                         <a href="https://www.instagram.com/ngeeannpoly/?hl=en">
-                        <i class="bi bi-instagram"></i>
+                            <i class="bi bi-instagram"></i>
                         </a>
                     </div>
                     <div class="col-2">
                         <!--NP Youtube-->
                         <a href="https://www.youtube.com/channel/UCIhzgEkhf4kFLU7mgIhSxOg">
-                        <i class="bi bi-youtube"></i>
+                            <i class="bi bi-youtube"></i>
                         </a>
                     </div>
                     <div class="col-2">
                         <!--NP Facebook-->
                         <a href="https://www.facebook.com/ngeeannpoly/">
-                        <i class="bi bi-facebook"></i>
+                            <i class="bi bi-facebook"></i>
                         </a>
                     </div>
                     <div class="col-2">
                         <!--NP Twitter-->
                         <a href="https://twitter.com/NgeeAnnNP?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-                        <i class="bi bi-twitter"></i>
+                            <i class="bi bi-twitter"></i>
                         </a>
                     </div>
                     <div class="col-2">
                         <!--NP LinkedIn-->
                         <a href="https://www.linkedin.com/school/ngee-ann-polytechnic/mycompany/">
-                        <i class="bi bi-linkedin"></i>
+                            <i class="bi bi-linkedin"></i>
                         </a>
                     </div>
                     <div class="'row">
@@ -295,20 +304,15 @@
 
 </body>
 
-<!--Scripts-->
-
 <!--Bootstap Script-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
-    crossorigin="anonymous">
-</script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
-    crossorigin="anonymous">
-</script>
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
-    crossorigin="anonymous">
-</script>
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 
 </html>

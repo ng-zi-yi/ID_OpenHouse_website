@@ -20,7 +20,9 @@
 
 <body>
     <div mainnav="mainnavh.html"></div>
+    <h1>Quizes</h1>
     <script src="mainnav.js"></script>
+
 
     <!-- Quiz Questions
     1) 
@@ -34,31 +36,36 @@
     9)
     10) -->
 
-    <!--Quiz Start-->
-    <div class="container">
-        <div class="col-md-auto">
-            <form>
-                <h1>Find Out What School Fits You</h1>
-                <div class="row mb-3">
-                    <label for="inputFullName" class="col-sm-2 col-form-label">Full Name</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputFullName">
-                    </div>
+    <!--Quiz 1 Button-->
+    <section class="row">
+        <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 25rem;">
+                <img src="images/NP-students.jpg" class="card-img-top" alt="NP Student">
+                <div class="card-body">
+                    <h5 class="card-title">Find Out What School in NP Fits You</h5>
+                    <p class="card-text">
+                        Don't know what course school to explore or still unsure of what field sector to go? 
+                        Don't worry. Take the quiz to find out what
+                        fits you.
+                    </p>
+                    <a href="quiz1.html" class="btn btn-outline-info">Start Quiz</a>
                 </div>
-
-                <!--Question Starts Here-->
-                <fieldset class="col md-12">
-                    <legend>What slogan resonates with you the most?</legend>
-                    <div class="col-sm-10">
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                          <label class="form-check-label" for="gridRadios1">
-                            Your First Business Choice
-                          </label>
-                </fieldset>
-            </form>
+            </div>
         </div>
-    </div>
+        <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 25rem;">
+                <img src="images/NP-school.jpg" class="card-img-top" alt="NP School">
+                <div class="card-body">
+                    <h5 class="card-title">Is NP The Polytechnic School For You?</h5>
+                    <p class="card-text">
+                        Have a quiz to know more about Ngee Ann Polytechnic's mission for our
+                        students and whether you would like to be part of us.
+                    </p>
+                    <a href="quiz2.html" class="btn btn-outline-info">Start Quiz</a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 <!--Bootstap Script-->
