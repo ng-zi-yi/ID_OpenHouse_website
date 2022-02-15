@@ -847,7 +847,7 @@ table tr th{
 }
 
 /* Quiz Page */
-.col.d-flex.justify-content-center:hover{
+.col.d-flex.justify-content-center{
     box-shadow: #0ACAF0;
 }
 
