@@ -821,3 +821,118 @@ nav #navbarNav{
 .lsct-dip-btn:hover{
     color: white;
 }
+
+/*HMS PAGE*/
+.hms-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(78, 87, 107, 0.7),rgba(3, 9, 34, 0.7)),url(images/HMS/hms-sch.PNG);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.hms-header-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hms-header-title2{
+    background: white;
+    color: #fcbc1c;
+    box-shadow: 8px 8px 0px 0px #fcbc1c;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.hms-header-title2 h1{
+    padding: 0px 15px 10px 15px;
+    font-size: 55px;
+}
+.hms-header-title2 h2{
+    padding: 10px 0px 0px 0px;
+    font-size: 40px;
+}
+.hms-btn{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 25px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.hms-btn:hover{
+    text-decoration: none;
+    color: #fcbc1c;
+    background-color: white;
+    box-shadow:0px 8px 0px 0px #fcbc1c;
+}
+
+.hms-courses{
+    background-color: rgb(244,244,244);
+    width: 100%;
+    padding: 70px 100px;
+    text-align: center;
+    margin: auto;
+}
+.hms-courses h3{
+    color: #fcbc1c;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.hms-courses-box{
+    display: flex;
+    flex-direction: column;
+}
+.hms-courses-item{
+    display: flex;
+    flex-basis: 28%;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    text-align: left;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.hms-courses img{
+    height: 250px;
+    border-radius: 10px;
+}
+.hms-courses-text{
+    padding-left: 30px;
+}
+.hms-courses-text h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.hms-courses-text p{
+    font-size: 18px;
+}
+.hms-courses-item:hover{
+    background-color: white;
+    box-shadow:15px 15px 0px 0px #fcbc1c;
+}
+.hms-dip-btn{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background: #fcbc1c;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 17px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.hms-dip-btn:hover{
+    color: white;
+}
