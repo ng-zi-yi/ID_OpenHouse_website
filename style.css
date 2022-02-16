@@ -1108,6 +1108,128 @@ footer p{
 }
 
 /*Responsive*/
+@media (max-width: 1230px){
+    .ba-courses{
+        padding: 70px 200px;
+    }
+    .ba-courses-item{
+        flex-direction: column;
+    }
+    .ba-courses img{
+        width: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .ba-courses-text{
+        padding-left: 0px;
+    }
+
+    .de-courses{
+        padding: 70px 200px;
+    }
+    .de-courses-item{
+        flex-direction: column;
+    }
+    .de-courses img{
+        width: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .de-courses-text{
+        padding-left: 0px;
+    }
+
+    .soe-courses{
+        padding: 70px 200px;
+    }
+    .soe-courses-item{
+        flex-direction: column;
+    }
+    .soe-courses img{
+        width: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .soe-courses-text{
+        padding-left: 0px;
+    }
+
+    .hms-courses{
+        padding: 70px 200px;
+    }
+    .hms-courses-item{
+        flex-direction: column;
+    }
+    .hms-courses img{
+        width: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .hms-courses-text{
+        padding-left: 0px;
+    }
+
+    .hs-courses{
+        padding: 70px 200px;
+    }
+    .hs-courses-item{
+        flex-direction: column;
+    }
+    .hs-courses img{
+        width: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .hs-courses-text{
+        padding-left: 0px;
+    }
+
+    .fms-courses{
+        padding: 70px 200px;
+    }
+    .fms-courses-item{
+        flex-direction: column;
+    }
+    .fms-courses img{
+        width: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .fms-courses-text{
+        padding-left: 0px;
+    }
+    
+    .ict-courses{
+        padding: 70px 200px;
+    }
+    .ict-courses-item{
+        flex-direction: column;
+    }
+    .ict-courses img{
+        width: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .ict-courses-text{
+        padding-left: 0px;
+    }
+
+    .lsct-courses{
+        padding: 70px 200px;
+    }
+    .lsct-courses-item{
+        flex-direction: column;
+    }
+    .lsct-courses img{
+        width: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .lsct-courses-text{
+        padding-left: 0px;
+    }
+}
+
 @media (max-width: 991px){
     .header-title img{
         width: 700px;
@@ -1135,6 +1257,40 @@ footer p{
     }
     .quiz-btn{
         font-size: 23px;
+    }
+}
+
+@media (max-width: 883px){
+    .ba-courses{
+        padding: 70px 100px;
+    }
+
+    .de-courses{
+        padding: 70px 100px;
+    }
+
+    .soe-courses{
+        padding: 70px 100px;
+    }
+    
+    .hms-courses{
+        padding: 70px 100px;
+    }
+
+    .hs-courses{
+        padding: 70px 100px;
+    }
+
+    .fms-courses{
+        padding: 70px 100px;
+    }
+
+    .ict-courses{
+        padding: 70px 100px;
+    }
+    
+    .lsct-courses{
+        padding: 70px 100px;
     }
 }
 
@@ -1167,11 +1323,307 @@ footer p{
     .quiz-btn{
         font-size: 18px;
     }
+
+    .ba-header-title2 h1{
+        padding: 0px 35px 10px 35px;
+        font-size: 45px;
+    }
+    .ba-header-title2 h2{
+        font-size: 30px;
+    }
+    .ba-btn{
+        font-size: 20px;
+    }
+    .ba-courses{
+        padding: 70px 40px;
+    }
+    .ba-courses h3{
+        font-size: 35px;
+    }
+    .ba-courses img{
+        height: auto;
+        width: auto;
+    }
+    .ba-courses-text h4{
+        font-size: 25px;
+    }
+    .ba-courses-text p{
+        font-size: 15px;
+    }
+    .ba-dip-btn{
+        font-size: 14px;
+    }
+
+    .de-header-title2 h1{
+        padding: 0px 35px 10px 35px;
+        font-size: 45px;
+    }
+    .de-header-title2 h2{
+        font-size: 30px;
+    }
+    .de-btn{
+        font-size: 20px;
+    }
+    .de-courses{
+        padding: 70px 40px;
+    }
+    .de-courses h3{
+        font-size: 35px;
+    }
+    .de-courses img{
+        height: auto;
+        width: auto;
+    }
+    .de-courses-text h4{
+        font-size: 25px;
+    }
+    .de-courses-text p{
+        font-size: 15px;
+    }
+    .de-dip-btn{
+        font-size: 14px;
+    }
+
+    .soe-header-title2 h1{
+        padding: 0px 35px 10px 35px;
+        font-size: 45px;
+    }
+    .soe-header-title2 h2{
+        font-size: 30px;
+    }
+    .soe-btn{
+        font-size: 20px;
+    }
+    .soe-courses{
+        padding: 70px 40px;
+    }
+    .soe-courses h3{
+        font-size: 35px;
+    }
+    .soe-courses img{
+        height: auto;
+        width: auto;
+    }
+    .soe-courses-text h4{
+        font-size: 25px;
+    }
+    .soe-courses-text p{
+        font-size: 15px;
+    }
+    .soe-dip-btn{
+        font-size: 14px;
+    }
+
+    .hms-header-title2 h1{
+        padding: 0px 35px 10px 35px;
+        font-size: 45px;
+    }
+    .hms-header-title2 h2{
+        font-size: 30px;
+    }
+    .hms-btn{
+        font-size: 20px;
+    }
+    .hms-courses{
+        padding: 70px 40px;
+    }
+    .hms-courses h3{
+        font-size: 35px;
+    }
+    .hms-courses img{
+        height: auto;
+        width: auto;
+    }
+    .hms-courses-text h4{
+        font-size: 25px;
+    }
+    .hms-courses-text p{
+        font-size: 15px;
+    }
+    .hms-dip-btn{
+        font-size: 14px;
+    }
+
+    .hs-header-title2 h1{
+        padding: 0px 35px 10px 35px;
+        font-size: 45px;
+    }
+    .hs-header-title2 h2{
+        font-size: 30px;
+    }
+    .hs-btn{
+        font-size: 20px;
+    }
+    .hs-courses{
+        padding: 70px 40px;
+    }
+    .hs-courses h3{
+        font-size: 35px;
+    }
+    .hs-courses img{
+        height: auto;
+        width: auto;
+    }
+    .hs-courses-text h4{
+        font-size: 25px;
+    }
+    .hs-courses-text p{
+        font-size: 15px;
+    }
+    .hs-dip-btn{
+        font-size: 14px;
+    }
+
+    .fms-header-title2 h1{
+        padding: 0px 35px 10px 35px;
+        font-size: 45px;
+    }
+    .fms-header-title2 h2{
+        font-size: 30px;
+    }
+    .fms-btn{
+        font-size: 20px;
+    }
+    .fms-courses{
+        padding: 70px 40px;
+    }
+    .fms-courses h3{
+        font-size: 35px;
+    }
+    .fms-courses img{
+        height: auto;
+        width: auto;
+    }
+    .fms-courses-text h4{
+        font-size: 25px;
+    }
+    .fms-courses-text p{
+        font-size: 15px;
+    }
+    .fms-dip-btn{
+        font-size: 14px;
+    }
+
+    .ict-header-title2 h1{
+        padding: 0px 35px 10px 35px;
+        font-size: 45px;
+    }
+    .ict-header-title2 h2{
+        font-size: 30px;
+    }
+    .ict-btn{
+        font-size: 20px;
+    }
+    .ict-courses{
+        padding: 70px 40px;
+    }
+    .ict-courses h3{
+        font-size: 35px;
+    }
+    .ict-courses img{
+        height: auto;
+        width: auto;
+    }
+    .ict-courses-text h4{
+        font-size: 25px;
+    }
+    .ict-courses-text p{
+        font-size: 15px;
+    }
+    .ict-dip-btn{
+        font-size: 14px;
+    }
+
+    .lsct-header-title2 h1{
+        padding: 0px 35px 10px 35px;
+        font-size: 45px;
+    }
+    .lsct-header-title2 h2{
+        font-size: 30px;
+    }
+    .lsct-btn{
+        font-size: 20px;
+    }
+    .lsct-courses{
+        padding: 70px 40px;
+    }
+    .lsct-courses h3{
+        font-size: 35px;
+    }
+    .lsct-courses img{
+        height: auto;
+        width: auto;
+    }
+    .lsct-courses-text h4{
+        font-size: 25px;
+    }
+    .lsct-courses-text p{
+        font-size: 15px;
+    }
+    .lsct-dip-btn{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 450px){
     .header-title img{
         width: 350px;
+    }
+
+    .ba-header-title2 h1{
+        font-size: 35px;
+    }
+    .ba-header-title2 h2{
+        font-size: 25px;
+    }
+
+    .de-header-title2 h1{
+        font-size: 35px;
+    }
+    .de-header-title2 h2{
+        font-size: 25px;
+    }
+
+    .soe-header-title2 h1{
+        font-size: 35px;
+    }
+    .soe-header-title2 h2{
+        font-size: 25px;
+    }
+
+    .hms-header-title2 h1{
+        font-size: 35px;
+    }
+    .hms-header-title2 h2{
+        font-size: 25px;
+    }
+
+    .hs-header-title2 h1{
+        font-size: 35px;
+    }
+    .hs-header-title2 h2{
+        font-size: 25px;
+    }
+
+    .fms-header-title2 h1{
+        font-size: 35px;
+    }
+    .fms-header-title2 h2{
+        font-size: 25px;
+    }
+
+    .ict-header-title2 h1{
+        font-size: 35px;
+    }
+    .ict-header-title2 h2{
+        font-size: 25px;
+    }
+
+    .lsct-header-title2 h1{
+        font-size: 35px;
+    }
+    .lsct-header-title2 h2{
+        font-size: 25px;
     }
 }
 
@@ -1184,5 +1636,85 @@ footer p{
     }
     .sch-btn{
         font-size: 14px;
+    }
+
+    .ba-header-title2 h1{
+        font-size: 25px;
+    }
+    .ba-header-title2 h2{
+        font-size: 15px;
+    }
+    .ba-btn{
+        font-size: 15px;
+    }
+
+    .de-header-title2 h1{
+        font-size: 25px;
+    }
+    .de-header-title2 h2{
+        font-size: 15px;
+    }
+    .de-btn{
+        font-size: 15px;
+    }
+
+    .soe-header-title2 h1{
+        font-size: 25px;
+    }
+    .soe-header-title2 h2{
+        font-size: 15px;
+    }
+    .soe-btn{
+        font-size: 15px;
+    }
+
+    .hms-header-title2 h1{
+        font-size: 25px;
+    }
+    .hms-header-title2 h2{
+        font-size: 15px;
+    }
+    .hms-btn{
+        font-size: 15px;
+    }
+
+    .hs-header-title2 h1{
+        font-size: 25px;
+    }
+    .hs-header-title2 h2{
+        font-size: 15px;
+    }
+    .hs-btn{
+        font-size: 15px;
+    }
+
+    .fms-header-title2 h1{
+        font-size: 25px;
+    }
+    .fms-header-title2 h2{
+        font-size: 15px;
+    }
+    .fms-btn{
+        font-size: 15px;
+    }
+
+    .ict-header-title2 h1{
+        font-size: 25px;
+    }
+    .ict-header-title2 h2{
+        font-size: 15px;
+    }
+    .ict-btn{
+        font-size: 15px;
+    }
+
+    .lsct-header-title2 h1{
+        font-size: 25px;
+    }
+    .lsct-header-title2 h2{
+        font-size: 15px;
+    }
+    .lsct-btn{
+        font-size: 15px;
     }
 }
