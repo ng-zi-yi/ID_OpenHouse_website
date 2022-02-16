@@ -1079,8 +1079,8 @@ table tr th{
 }
 
 /* Quiz Page */
-.col.d-flex.justify-content-center{
-    box-shadow: #0ACAF0;
+.card:hover{
+    box-shadow:15px 15px 0px 0px#0ACAF0;
 }
 
 /* Footer */
