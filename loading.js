@@ -54,225 +54,233 @@ const LDH = "https://www.np.edu.sg/lsct/Pages/ldh.aspx"
 const CBE = "https://www.np.edu.sg/lsct/Pages/cbe.aspx"
 
 /*Execution Done*/
+let schoolsrc;
 //Home Page
-document.getElementsById("quiz-btn").addEventListener("click", Quiz1Page);
 
 //School Pages
 document.getElementById("CBP").addEventListener("click", CBPPage);
-document.getElementById("ACC").addEventListener("click", ACCPage);
-document.getElementsById("BF").addEventListener("click", BFPage);
-document.getElementsById("BS").addEventListener("click", BSPage);
-document.getElementsById("ITB").addEventListener("click", ITBPage);
-document.getElementsById("TRM").addEventListener("click", TRMPage);
-document.getElementsById("DES").addEventListener("click", DESPage);
-document.getElementsById("HLFM").addEventListener("click", HLFMPage);
-document.getElementsById("CEP").addEventListener("click", CEPPage);
-document.getElementsById("AEG").addEventListener("click", AEGPage);
-document.getElementsById("AMS").addEventListener("click", AMSPage);
-document.getElementsById("BME").addEventListener("click", BMEPage);
-document.getElementsById("EE").addEventListener("click", EEPage);
-document.getElementsById("ECE").addEventListener("click", ECEPage);
-document.getElementsById("ES").addEventListener("click", ESPage);
-document.getElementsById("MOT").addEventListener("click", MOTPage);
-document.getElementsById("ME").addEventListener("click", MEPage);
-document.getElementsById("FSV").addEventListener("click", FSVPage);
-document.getElementsById("MCM").addEventListener("click", MCMPage);
-document.getElementsById("MPP").addEventListener("click", MPPPage);
-document.getElementsById("NSG").addEventListener("click", NSGPage);
-document.getElementsById("OPT").addEventListener("click", OPTPage);
-document.getElementsById("ABM").addEventListener("click", ABMPage);
-document.getElementsById("CMC").addEventListener("click", CMCPage);
-document.getElementsById("CHS").addEventListener("click", CHSPage);
-document.getElementsById("CDT").addEventListener("click", CDTPage);
-document.getElementsById("ECDE").addEventListener("click", ECDEPage);
-document.getElementsById("TSE").addEventListener("click", TSEPage);
-document.getElementsById("CICTP").addEventListener("click", CICTPPage);
-document.getElementsById("CSF").addEventListener("click", CSFPage);
-document.getElementsById("DS").addEventListener("click", DSPage);
-document.getElementsById("IM").addEventListener("click", IMPage);
-document.getElementsById("IT").addEventListener("click", ITPage);
-document.getElementsById("BMS").addEventListener("click", BMSPage);
-document.getElementsById("PHARM").addEventListener("click", PHARMPage);
-document.getElementsById("EWT").addEventListener("click", EWTPage);
-document.getElementsById("LDH").addEventListener("click", LDHPage);
-document.getElementsById("CBE").addEventListener("click", CBEPage);
-
-let schoolsrc;
-
-//Home Page
-function Quiz1Page() {
-    schoolsrc = window.open("loading.html", "_self");
-    setTimeout("GoURL('quiz1.html')", 1000);
-}
-
-//School Pages
 function CBPPage() {
     schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL('https://www.np.edu.sg/ba/Pages/cbp.aspx')", 1000);
 }
+
+document.getElementById("ACC").addEventListener("click", ACCPage);
 function ACCPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(ACC)", 1000);
 }
+
+document.getElementsById("BF").addEventListener("click", BFPage);
 function BFPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(BF)", 1000);
 }
+
+document.getElementsById("BS").addEventListener("click", BSPage);
 function BSPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(BS)", 1000);
 }
+
+document.getElementsById("ITB").addEventListener("click", ITBPage);
 function ITBPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(ITB)", 1000);
 }
+
+document.getElementsById("TRM").addEventListener("click", TRMPage);
 function TRMPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(TRM)", 1000);
 }
+
+document.getElementsById("DES").addEventListener("click", DESPage);
 function DESPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(DES)", 1000);
 }
+
+document.getElementsById("HLFM").addEventListener("click", HLFMPage);
 function HLFMPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(HLFM)", 1000);
 }
+
+document.getElementsById("CEP").addEventListener("click", CEPPage);
 function CEPPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(CEP)", 1000);
 }
+
+document.getElementsById("AEG").addEventListener("click", AEGPage);
 function AEGPage () {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(AEG)", 1000);
 }
+
+document.getElementsById("AMS").addEventListener("click", AMSPage);
 function AMSPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(AMS)", 1000);
 }
-function CBPPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(CBP)", 1000);
-}
+
+document.getElementsById("BME").addEventListener("click", BMEPage);
 function BMEPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(BME)", 1000);
 }
+
+document.getElementsById("EE").addEventListener("click", EEPage);
 function EEPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(EE)", 1000);
 }
+
+document.getElementsById("ECE").addEventListener("click", ECEPage);
 function ECEPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(ECE)", 1000);
 }
+
+document.getElementsById("ES").addEventListener("click", ESPage);
 function ESPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(ES)", 1000);
 }
+
+document.getElementsById("MOT").addEventListener("click", MOTPage);
 function MOTPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(MOT)", 1000);
 }
+
+document.getElementsById("ME").addEventListener("click", MEPage);
 function MEPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(ME)", 1000);
 }
+
+document.getElementsById("FSV").addEventListener("click", FSVPage);
 function FSVPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(FSV)", 1000);
 }
+
+document.getElementsById("MCM").addEventListener("click", MCMPage);
 function MCMPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(MCM)", 1000);
 }
-function CBPPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(CBP)", 1000);
-}
+
+document.getElementsById("MPP").addEventListener("click", MPPPage);
 function MPPPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(MPP)", 1000);
 }
+
+document.getElementsById("NSG").addEventListener("click", NSGPage);
 function NSGPage() {
-    schoolsrc = LoadPage();
+    schoolsrc = window.open("loading.html", "_blank");
     setTimeout("GoURL(NSG)", 1000);
-}
-function OPTPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(OPT)", 1000);
-}
-function ABMPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(ABM)", 1000);
-}
-function CMCPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(CMC)", 1000);
-}
-function CHSPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(CHS)", 1000);
-}
-function CDTPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(CDT)", 1000);
-}
-function ECDEPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(ECDE)", 1000);
-}
-function TSEPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(TSE)", 1000);
-}
-function CICTPPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(CICTP)", 1000);
-}
-function CSFPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(CSF)", 1000);
-}
-function NSGPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(NSG)", 1000);
-}
-function DSPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(DS)", 1000);
-}
-function IMPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(IM)", 1000);
-}
-function ITPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(IT)", 1000);
-}
-function BMSPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(BMS)", 1000);
-}
-function PHARMPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(PHARM)", 1000);
-}
-function EWTPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(EWT)", 1000);
-}
-function LDHPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(LDH)", 1000);
-}
-function CBEPage() {
-    schoolsrc = LoadPage();
-    setTimeout("GoURL(CBE)", 1000);
 }
 
-function LoadPage() {
-    window.open("loading.html", "_blank");
+document.getElementsById("OPT").addEventListener("click", OPTPage);
+function OPTPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(OPT)", 1000);
+}
+
+document.getElementsById("ABM").addEventListener("click", ABMPage);
+function ABMPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(ABM)", 1000);
+}
+document.getElementsById("CMC").addEventListener("click", CMCPage);
+function CMCPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(CMC)", 1000);
+}
+
+document.getElementsById("CHS").addEventListener("click", CHSPage);
+function CHSPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(CHS)", 1000);
+}
+
+document.getElementsById("CDT").addEventListener("click", CDTPage);
+function CDTPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(CDT)", 1000);
+}
+
+document.getElementsById("ECDE").addEventListener("click", ECDEPage);
+function ECDEPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(ECDE)", 1000);
+}
+
+document.getElementsById("TSE").addEventListener("click", TSEPage);
+function TSEPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(TSE)", 1000);
+}
+
+document.getElementsById("CICTP").addEventListener("click", CICTPPage);
+function CICTPPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(CICTP)", 1000);
+}
+
+document.getElementsById("CSF").addEventListener("click", CSFPage);
+function CSFPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(CSF)", 1000);
+}
+
+document.getElementsById("DS").addEventListener("click", DSPage);
+function DSPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(DS)", 1000);
+}
+
+document.getElementsById("IM").addEventListener("click", IMPage);
+function IMPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(IM)", 1000);
+}
+
+document.getElementsById("IT").addEventListener("click", ITPage);
+function ITPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(IT)", 1000);
+}
+document.getElementsById("BMS").addEventListener("click", BMSPage);
+function BMSPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(BMS)", 1000);
+}
+
+document.getElementsById("PHARM").addEventListener("click", PHARMPage);
+function PHARMPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(PHARM)", 1000);
+}
+
+document.getElementsById("EWT").addEventListener("click", EWTPage);
+function EWTPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(EWT)", 1000);
+}
+document.getElementsById("LDH").addEventListener("click", LDHPage);
+function LDHPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(LDH)", 1000);
+}
+
+document.getElementsById("CBE").addEventListener("click", CBEPage);
+function CBEPage() {
+    schoolsrc = window.open("loading.html", "_blank");
+    setTimeout("GoURL(CBE)", 1000);
 }
 
 function GoURL(Url) {
