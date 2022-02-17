@@ -117,7 +117,7 @@ html, body {
     padding: 20px 20px;
     font-family: 'Roboto','sans-serif';
 }
-.quiz-btn{
+#quiz-btn{
     color: black;
     display: inline-block;
     text-decoration: none;
@@ -129,7 +129,7 @@ html, body {
     transition: 0.5s;
     border-radius: 3px;
 }
-.quiz-btn:hover{
+#quiz-btn:hover{
     text-decoration: none;
     color: black;
     box-shadow: 10px 10px 0px 0px rgb(194, 193, 221)
@@ -1160,8 +1160,16 @@ table tr th{
         min-width: 40rem;
     }
 }
+/*Loading Page*/
+.animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Footer */
-footer{
+footer {
     background-color: black;
 }
 
@@ -1332,7 +1340,7 @@ footer p{
     .sch-quizbox h2{
         font-size: 40px;
     }
-    .quiz-btn{
+    #quiz-btn{
         font-size: 23px;
     }
 }
@@ -1397,7 +1405,7 @@ footer p{
     .sch-quizbox h2{
         font-size: 30px;
     }
-    .quiz-btn{
+    #quiz-btn{
         font-size: 18px;
     }
 
