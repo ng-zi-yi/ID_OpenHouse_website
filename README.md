@@ -31,7 +31,7 @@ In addition, you may also use this section to discuss plans for additional featu
     - The project uses **JQuery** to simplify DOM manipulation.
 - [RestDB](https://restdb.io/)
 - [Bootstrap](https://getbootstrap.com/)
-   - The project uses **Bootstrap** for the icons in the footer
+   - The project uses **Bootstrap** for the icons in the footer and navbar
 - [LottieFiles](https://lottiefiles.com/)
    - The project uses **Lotie Files** to have a loading animation.
 - [Google Fonts](https://fonts.google.com/)
