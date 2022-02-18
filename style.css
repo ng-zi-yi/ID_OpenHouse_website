@@ -1090,6 +1090,31 @@ table tr th{
 /* Quiz 1 */
 
 /* Quiz 2 */
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
 #quiz h1 {
     font-size: 70px;
     margin-bottom: 5rem;
@@ -1115,6 +1140,7 @@ table tr th{
 }
 
 .choice-text {
+    color: white;
     padding: 2rem;
     width: 100%;
 }
