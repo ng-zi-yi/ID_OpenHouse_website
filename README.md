@@ -1,14 +1,9 @@
 # ID_OpenHouse_website
-
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
- 
-## Design Process
-
 This website is to give the site's target audience who are students/learners trying to find out more about Ngee Ann Polytechnic, more insight to the 8 academic schools(not including IS) Ngee Ann Poly has to offer, so that they will know what course they might be interested in and would want to take. Users will be able to explore the 8 schools from the Home Page by clicking on a school they are interested in, and from there they will be redirected to the respective school pages to learn more about the courses offered. Users will then be able to click "Learn More" to find out more about each course as they are redirected to the respective course pages. Users will also be able to go to the Quiz page to attempt quizzes to test their knowledge on NP and find out which school in NP is most suitable for them. Users can also go the "Contact Us" Page to view NP's contact details and a map that shows where NP is located. The page also shows the individual contact details of each school if the user wants to contact the school for more details. The footer at the bottom of each page also provide links to NP's respective social media pages.
  
+## Design Process
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+As this website is targetted towards students/learners trying to find out more about Ngee Ann Polytechnic, this website is designed to help them learn more about what NP has to offer. To do this, we have created 4 main sections, the Home Page, Individual School Pages, Quiz Page, Contact Us Page. The Home Page is designed to show users what are the 8 academic schools in NP, and below that section there is a button that users can click to be redirected to the quiz page for them to test their knowledge on NP and also to find out which school is most suitable for them. From the Home Page, users will be able to choose/click on a school they would like to explore and they will then be redirected to the respective school's page. For example, if user wants to find out more about School of Business & Accountancy, they will click on that and be redirected to the page for SCHOOL OF BUSINESS & ACCOUNTANCY. To make the website feel more interactive, there is a "Discover Our Courses" button in each of the school pages under the main school title for users to click on, and the website will then scroll down to the Full-Time Courses section. These individual school pages have been designed to be more interactive for users as users can hover over any course and a box shadow of each school's respective colour will appear. Users can also choose to find out more about a course by clicking the "Learn More" button to be redirected to a new tab of the respective diploma course. So as a student that is interested in the School of Business & Accountancy but is no t sure what course I should take, I want to be able to view what courses are available in NP BA, so that I can learn more about them and choose a diploma course I am interested in. As a student that is just exploring what the different polytechnics have to offer, I want to be able to view the different schools in NP and each schools courses, so that I can decide if NP is the polytechnic for me.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -16,7 +11,7 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
-
+Our initial wireframe mockup is located in this Assignment folder. We have changed some details since the initial wireframe mockup, so not everything is exactly the same as the the drawing
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -31,7 +26,7 @@ In this section, you should go over the different parts of your project, and des
 - For the Contact Page, there is a navigation bar that scrolls to the selected school's telphone no and email
 - For the Quiz Page, once the user gets their result. They are able to see the top 3 schools that matches their interest
 - Footer contains links to NP's social media platforms
-- ...
+
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
