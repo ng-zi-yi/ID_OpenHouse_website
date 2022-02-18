@@ -45,9 +45,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [RestDB](https://restdb.io/)
 - [Bootstrap](https://getbootstrap.com/)
 - [LottieFiles](https://lottiefiles.com/)
-- [AdobeXD]
+- [Google Fonts](https://fonts.google.com/)
 - [HTML](https://html.com/)
-- [CSS]
+- CSS
 - [JavaScript](https://www.javascript.com/)
 
 
@@ -61,9 +61,10 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-2. Home Scrolling Effect:
+2. Scrolling Effect:
     1. Go to the Home Page
-    2. Click on the "Discover Our Schools" button and ensure that the page scrolls down to the Schools section
+    2. Click on the "Discover Our Schools" button and ensure that the page smoothly scrolls down to the Schools section
+    3. Go to each School Page from the Home Page and click on "Discover Our Courses" button and ensure that the page smoothly scrolls down to the Full-Time Courses section
 
 3. Navigation Menu:
     1. Go to the Home Page
@@ -73,7 +74,29 @@ For any scenarios that have not been automated, test the user stories manually a
     5. On Mobile screen size, the navigation bar should change to a hamburger menu 
     6. Try to click on the hamburger icon and ensure that the navigation opens up
 
+4. Redirect Links:
+    1. Go to the Home Page
+    2. Click on each of the schools and ensure that you are redirected to the respective school pages and not the wrong school page
+    3. Go to each of the School Pages from the Home Page
+    4. Click on each of the "Learn More" buttons and ensure that you are redirected to their respective diploma pages in a new tab and not the wrong page
 
+5. Responsive Home Page:
+    1. Make the screen size larger than 991px
+    2. The school display section should display the 8 schools in 2 rows of 4 schools each
+    3. Make the screen size 991px-559px
+    4. The school display section will change from 2 rows of 4 schools each to 2 columns of 4 schools each
+    5. Make the screen size 558px and lower
+    6. The school display section will change from 2 columns of 4 rows each to 1 column of 8 schools
+    7. The font sizes will also decrease as the screen size decreases
+
+6. Responsive Individual School Pages:
+    1. Make the screen size larger than 1230px
+    2. The Full-Time Courses section should display each course item as a course picture on the left followed by the course information on the right
+    3. Make the screen size 1230px and lower
+    4. The Full-Time Courses section should display each course item as a course picture followed by the course information below
+    5. The padding for the course section will also decrease as the screen size decreases
+    6. The font sizes on the page should also decrease as the screen size decreases
+    
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
