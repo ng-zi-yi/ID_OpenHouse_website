@@ -5,7 +5,7 @@ let schoolsrc;
 document.getElementsById("quiz-btn").addEventListener("click", Quiz1Page);
 function Quiz1Page() {
     schoolsrc = window.open("loading.html", "_blank");
-    setTimeout("GoURL('quiz1.html')", 1000);
+    setTimeout("GoPage('quiz1.html')", 1000);
 }
 
 //School Pages
@@ -240,6 +240,12 @@ function CBEPage() {
     setTimeout("GoURL('https://www.np.edu.sg/lsct/Pages/cbe.aspx')", 1000);
 }
 
+//For html file
+function goPage(Url){
+    schoolsrc.location = Url;
+}
+
+//For websites
 function GoURL(Url) {
     schoolsrc.location.href = Url;
 }
