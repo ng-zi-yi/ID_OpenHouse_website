@@ -5,6 +5,8 @@ One or two paragraphs providing an overview of your project. Tell us about your 
 Essentially, this part is your sales pitch.
  
 ## Design Process
+
+This website is to give the site's target audience who are students/learners trying to find out more about Ngee Ann Polytechnic, more insight to the 8 academic schools(not including IS) Ngee Ann Poly has to offer, so that they will know what course they might be interested in and would want to take. Users will be able to explore the 8 schools from the Home Page by clicking on a school they are interested in, and from there they will be redirected to the respective school pages to learn more about the courses offered. Users will then be able to click "Learn More" to find out more about each course as they are redirected to the respective course pages. Users will also be able to go to the Quiz page to attempt quizzes to test their knowledge on NP and find out which school in NP is most suitable for them. Users can also go the "Contact Us" Page to view NP's contact details and a map that shows where NP is located. The page also shows the individual contact details of each school if the user wants to contact the school for more details. The footer at the bottom of each page also provide links to NP's respective social media pages.
  
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
