@@ -44,8 +44,11 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **JQuery** to simplify DOM manipulation.
 - [RestDB](https://restdb.io/)
 - [Bootstrap](https://getbootstrap.com/)
+   - The project uses **Bootstrap** for the icons in the footer
 - [LottieFiles](https://lottiefiles.com/)
+   - The project uses **Lotie Files** to have a loading animation.
 - [Google Fonts](https://fonts.google.com/)
+    - The project uses **Google Fonts** to have more variety of fonts available
 - [HTML](https://html.com/)
 - CSS
 - [JavaScript](https://www.javascript.com/)
