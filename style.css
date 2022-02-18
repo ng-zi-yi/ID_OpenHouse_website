@@ -1147,11 +1147,11 @@ table tr th{
 }
 
 .correct {
-    background-color: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41,232,111) 100%);
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
 }
 
 .incorrect {
-    background-color: linear-gradient(32deg, rgba(230, 29, 29,1) 0%, rgb(224,11,11,1) 100%);
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
 }
 
 #quiz-body{
@@ -1183,10 +1183,59 @@ table tr th{
     width: 0%;
 }
 
-@media screen and (max-width: 768px) {
-    .choice-container {
-        min-width: 40rem;
-    }
+/* Quiz 2 End Page */
+.quiz2-btn {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 1rem 4rem 0 rgba(170, 170, 170, 0.5);
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color: #000;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.fa-home {
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: rgb(28, 26, 26)
 }
 
 /*Loading Page*/
@@ -1830,5 +1879,12 @@ footer p{
     }
     .lsct-btn{
         font-size: 15px;
+    }
+}
+
+/*Quiz 2 Screens*/
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
     }
 }
