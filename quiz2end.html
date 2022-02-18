@@ -20,21 +20,32 @@
 
 <body>
     <div class="container">
-        <div id="end" class="flex-center flex-column">
-            <h1 id="finalScore">0</h1>
-            <form class="end-form-container">
-                <h2 id="end-text">Enter your name below!</h2>
-                <input type="text" name="name" id="username" placeholder="Enter your name">
-                <button class="btn btn-outline-warning quiz2-btn" id="saveScoreBtn" type="submit">Save</button>
-                <div class="valid-feedback">
-                    Score has been saved!
+        <div class="row row-cols-3">
+            <div class="col"></div>
+            <div id="end" class="col">
+                <h1 id="finalScore">0</h1>
+                <form class="end-form-container">
+                    <div class="col-4-auto">
+                        <h2 id="end-text">Enter your name below!</h2>
+                        <input type="text" name="name" id="username" placeholder="Enter your name">
+                        <button class="btn btn-outline-warning quiz2-btn" id="saveScoreBtn" type="submit">Save</button>
+                        <div class="valid-feedback">
+                            Score has been saved!
+                        </div>
+                    </div>
+                </form>
+                <div class="end-form-container col-4-auto">
+                    <button onclick="location.href='quiz2.html';" type="button"
+                        class="btn btn-outline-success quiz2-btn">
+                        Play Again
+                    </button>
+                    <button onclick="location.href='quiz.html';" type="button"
+                        class="btn btn-outline-primary quiz2-btn">Go
+                        Home
+                    </button>
                 </div>
-            </form>
-            </form>
-            <button onclick="location.href='quiz2.html';" type="button" class="btn btn-outline-success quiz2-btn">
-                Play Again
-            </button>
-            <button onclick="location.href='quiz.html';" type="button" class="btn btn-outline-primary quiz2-btn">Go Home</button>
+            </div>
+            <div class="col"></div>
         </div>
     </div>
 
