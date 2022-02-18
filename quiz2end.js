@@ -24,10 +24,10 @@ saveHighScore = e => {
     let score = $("#finalScore").val();
 
     //AJAX Setting Post
-    // let jsondata = {
-    //     "name": name,
-    //     "score": score,
-    // };
+    let jsondata = {
+        "name": name,
+        "score": score,
+    };
 
     const APIKEY = "620f3d4834fd621565858780"
     var jsondata = { "field1": "xyz", "field2": "abc" };
@@ -48,7 +48,7 @@ saveHighScore = e => {
     $.ajax(settings).done(function (response) {
         console.log(response);
         console.log(js)
-        
+
         //Hide Save Button
         $(".valid-feedback").show();
     });
