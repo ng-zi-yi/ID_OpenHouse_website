@@ -33,9 +33,11 @@ In addition, you may also use this section to discuss plans for additional featu
 - [Bootstrap](https://getbootstrap.com/)
    - The project uses **Bootstrap** for the icons in the footer and navbar
 - [LottieFiles](https://lottiefiles.com/)
-   - The project uses **Lotie Files** to have a loading animation.
+   - The project uses **Lottie Files** to have a loading animation.
 - [Google Fonts](https://fonts.google.com/)
     - The project uses **Google Fonts** to have more variety of fonts available
+- [Google Maps API](https://developers.google.com/maps/documentation/embed/map-generator)
+    - The project uses **Google Maps API** for the Contact Us Page
 - [HTML](https://html.com/)
 - CSS
 - [JavaScript](https://www.javascript.com/)
