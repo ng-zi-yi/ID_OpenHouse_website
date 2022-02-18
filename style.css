@@ -1115,6 +1115,7 @@ table tr th{
     justify-content: center;
 }
 
+/*Quiz Display*/
 #quiz h1 {
     font-size: 70px;
     margin-bottom: 5rem;
@@ -1182,11 +1183,12 @@ table tr th{
     width: 0%;
 }
 
-@media screen and (max-width: 768px){
-    .choice-container{
+@media screen and (max-width: 768px) {
+    .choice-container {
         min-width: 40rem;
     }
 }
+
 /*Loading Page*/
 .animation {
     display: flex;
