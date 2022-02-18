@@ -22,7 +22,7 @@ In this section, you should go over the different parts of your project, and des
 ### Existing Features
 - Navigation Header - allows users to navigate between different pages
 - Home/School Page - allows users to view the different schools in NP
-- Diploma Page - allows users to view the different diplomas offered in each school
+- Individual School Pages - allows users to view the different diplomas offered in each school
 - Quiz Page - allows users to find out what school matches their interest
 - Contact Page - allows users to view NP's contact and individual schools' contact for further enquiry
 - After scrolling past all the schools in the Home Page, there is a button that redirects them to the Quiz Page when clicked
@@ -109,11 +109,19 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for each diploma section in the BA page was copied from the indivdual diploma pages from the [official NP BA page](https://www.np.edu.sg/ba/Pages/default.aspx)
+- The text for each diploma section in the DE page was copied from the indivdual diploma pages from the [official NP DE page](https://www.np.edu.sg/de/Pages/default.aspx)
+- The text for each diploma section in the SOE page was copied from the indivdual diploma pages from the [official NP SOE page](https://www.np.edu.sg/soe/Pages/default.aspx)
+- The text for each diploma section in the HMS page was copied from the indivdual diploma pages from the [official NP HMS page](https://www.np.edu.sg/hms/Pages/default.aspx)
+- The text for each diploma section in the HS page was copied from the indivdual diploma pages from the [official HS  page](https://www.np.edu.sg/hs/Pages/default.aspx)
+- The text for each diploma section in the FMS page was copied from the indivdual diploma pages from the [official NP FMS page](https://www.np.edu.sg/fms/Pages/default.aspx)
+- The text for each diploma section in the ICT page was copied from the indivdual diploma pages from the [official NP ICT page](https://www.np.edu.sg/ict/Pages/default.aspx)
+- The text for each diploma section in the LSCT page was copied from the indivdual diploma pages from the [official NP LSCT page](https://www.np.edu.sg/lsct/Pages/default.aspx)
 
 ### Media
-- The photos used in this site were obtained from ...
-
+- The photos used at the beginning of each of the school page were obtained from screenshots of the [NP 360 Virutal Tour](https://www1.np.edu.sg/corpcomm/vtour/tour.html)
+- The photos used for each diploma course was obtained from each of the respective offical NP diploma pages
+- The photo of the NP logo was obtained from the offical NP page
+- The photo used of NP in the Home Page was obtained from [NP LinkedIn Page](https://www.linkedin.com/school/ngee-ann-polytechnic/?originalSubdomain=sg)
 ### Acknowledgements
-
-- I received inspiration for this project from X
+- I received inspiration for this project from the [official NP page](https://www.np.edu.sg/Pages/default.aspx)
